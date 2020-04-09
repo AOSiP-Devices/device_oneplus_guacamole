@@ -31,9 +31,6 @@ BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
-# Prebuilt TWRP include
--include device/twrp/guacamole/twrp.mk
-
 # Treble
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
